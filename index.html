@@ -114,8 +114,7 @@
             z-index: 20;
         }
 
-        #luna-img,
-        #fran-julia-img {
+        #luna-img {
             position: absolute;
             top: 50%;
             left: 50%;
@@ -128,9 +127,6 @@
             animation: orbit-luna 8s linear infinite;
         }
 
-        #fran-julia-img {
-            animation: orbit-fj 8s linear infinite;
-        }
 
         @keyframes orbit-luna {
             from {
@@ -142,15 +138,6 @@
             }
         }
 
-        @keyframes orbit-fj {
-            from {
-                transform: translate(-50%, -50%) rotate(180deg) translateY(-28vmin) rotate(-180deg);
-            }
-
-            to {
-                transform: translate(-50%, -50%) rotate(540deg) translateY(-28vmin) rotate(-540deg);
-            }
-        }
 
 
 
@@ -202,7 +189,6 @@
     </div>
 
     <div id="success-message">
-        <img id="fran-julia-img" src="franjuliavalentnes.png" alt="Fran & Julia" />
         <img id="luna-img" src="luna_valen.png" alt="Luna" />
         <div class="big-heart"></div>
         <div class="success-text">i'm sooooo happy!!1 yaaaaaaaay </div>
