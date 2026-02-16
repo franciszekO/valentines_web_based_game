@@ -17,9 +17,11 @@ This is a simple interactive web page created for Valentine's Day. It features a
 ### Interaction Mechanics
 *Demonstration of the evasion logic for the negative response button.*
 
-![No Button Interaction](path/to/screenshot1.png)
+<img width="1912" height="867" alt="readme1" src="https://github.com/user-attachments/assets/6aa97877-853f-48c7-9860-e65f54aea2f5" />
+
 
 ### Success State
 *The resulting visual state following a positive user confirmation.*
 
-![Success State](path/to/screenshot2.png)
+<img width="1918" height="868" alt="readme2" src="https://github.com/user-attachments/assets/ef855965-7a77-4978-88fd-6a7b76a35b87" />
+
